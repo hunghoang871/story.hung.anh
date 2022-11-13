@@ -47,7 +47,7 @@ body{
     background: #ff1054;
     right: -50%;
     border-radius: 200px;
-    box-shadow: 10px 10px 90px #ff1054;
+    box-shadow: 10px 10px 90px rgb(255, 16, 84);
 }
 
 .text2{
@@ -67,5 +67,20 @@ body{
    
 }
 
-
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff;
+    border: 2px solid #ffff;
+    padding: 12px 34px;
+    font-size: 25px;
+    position: relative;
+    background: transparent;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px solid rgb(248, 0, 0);
+    background: linear-gradient(rgba(255, 16, 84, 0.5), rgba(255, 16, 84, 0.5) );
+    transition: 0.5s;
+}
 
