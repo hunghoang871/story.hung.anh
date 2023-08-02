@@ -5,7 +5,7 @@ body {
 .header{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(images/IMG_5158.jpg);
+    background:linear-gradient(rgba(31, 30, 30, 0.5), rgba(56, 56, 56, 0.5)),  url(images/IMG_5936.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -320,6 +320,17 @@ h3{
     justify-content: space-between;
    
 }
+.row1{
+    margin-top: 5%;
+    display:  flex;
+    justify-content: space-between;
+    transform: scale(0.5,0.5);
+    -moz-transform: scale(0.5,0.5);
+    -webkit-transform: scale(0.5,0.5);
+    -o-transform: scale(0.5,0.5);
+    -ms-transform: scale(0.5,0.5);
+   
+}
 .courses-colum{
     flex-basis: 31%;
     background: #fff3f3;
@@ -360,7 +371,7 @@ h3{
 
 }
 .campus-colum2{
-    flex-basis: 48%;
+    flex-basis: 46%;
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 30px;
@@ -533,6 +544,13 @@ h3{
 .fa-heart{
     color: rgb(255, 0, 0);
 }
+.fa-face-kiss-wink-heart{
+    color: rgb(255, 127, 127);
+}
+.fa-face-grin-hearts{
+    color: white;
+}
+
 
 /* ----------ABOUT-------------- */
 .sub-header{
@@ -794,37 +812,6 @@ input, textarea{
     top: -30px;
     font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
